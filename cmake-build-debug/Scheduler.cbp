@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Scheduler"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Collin/CLionProjects/Scheduler/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Collin/CLionProjects/Scheduler/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Collin/CLionProjects/Scheduler/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Collin/CLionProjects/Scheduler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Collin/CLionProjects/Scheduler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Scheduler">
+				<Option output="C:/Users/Collin/CLionProjects/Scheduler/cmake-build-debug/Scheduler.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Collin/CLionProjects/Scheduler/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../include/c++/9.4.0"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../include/c++/9.4.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../include/c++/9.4.0/backward"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/include"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../include"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/include-fixed"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Collin/CLionProjects/Scheduler/cmake-build-debug/Makefile&quot;  VERBOSE=1 Scheduler"/>
+					<CompileFile command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Collin/CLionProjects/Scheduler/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Collin/CLionProjects/Scheduler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Collin/CLionProjects/Scheduler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Scheduler/fast">
+				<Option output="C:/Users/Collin/CLionProjects/Scheduler/cmake-build-debug/Scheduler.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Collin/CLionProjects/Scheduler/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../include/c++/9.4.0"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../include/c++/9.4.0/x86_64-w64-mingw32"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../include/c++/9.4.0/backward"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/include"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../include"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/include-fixed"/>
+					<Add directory="c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/9.4.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Collin/CLionProjects/Scheduler/cmake-build-debug/Makefile&quot;  VERBOSE=1 Scheduler/fast"/>
+					<CompileFile command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Collin/CLionProjects/Scheduler/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Collin/CLionProjects/Scheduler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Collin/CLionProjects/Scheduler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Collin/CLionProjects/Scheduler/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Collin/CLionProjects/Scheduler/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Collin/CLionProjects/Scheduler/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Collin/CLionProjects/Scheduler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Collin/CLionProjects/Scheduler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Collin/CLionProjects/Scheduler/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Collin/CLionProjects/Scheduler/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Collin/CLionProjects/Scheduler/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Collin/CLionProjects/Scheduler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Collin/CLionProjects/Scheduler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Collin/CLionProjects/Scheduler/Class.cpp">
+			<Option target="Scheduler"/>
+		</Unit>
+		<Unit filename="C:/Users/Collin/CLionProjects/Scheduler/Class.h">
+			<Option target="Scheduler"/>
+		</Unit>
+		<Unit filename="C:/Users/Collin/CLionProjects/Scheduler/Requirements.cpp">
+			<Option target="Scheduler"/>
+		</Unit>
+		<Unit filename="C:/Users/Collin/CLionProjects/Scheduler/Requirements.h">
+			<Option target="Scheduler"/>
+		</Unit>
+		<Unit filename="C:/Users/Collin/CLionProjects/Scheduler/Schedule.cpp">
+			<Option target="Scheduler"/>
+		</Unit>
+		<Unit filename="C:/Users/Collin/CLionProjects/Scheduler/Schedule.h">
+			<Option target="Scheduler"/>
+		</Unit>
+		<Unit filename="C:/Users/Collin/CLionProjects/Scheduler/main.cpp">
+			<Option target="Scheduler"/>
+		</Unit>
+		<Unit filename="C:/Users/Collin/CLionProjects/Scheduler/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

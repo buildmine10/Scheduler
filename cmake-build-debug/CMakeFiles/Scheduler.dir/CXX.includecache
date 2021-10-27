@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Collin/CLionProjects/Scheduler/Class.h
+string
+-
+vector
+-
+set
+-
+Requirements.h
+C:/Users/Collin/CLionProjects/Scheduler/Requirements.h
+
+C:/Users/Collin/CLionProjects/Scheduler/Requirements.h
+vector
+-
+string
+-
+set
+-
+
+C:/Users/Collin/CLionProjects/Scheduler/Schedule.h
+vector
+-
+set
+-
+Class.h
+C:/Users/Collin/CLionProjects/Scheduler/Class.h
+
+C:/Users/Collin/CLionProjects/Scheduler/main.cpp
+iostream
+-
+Class.h
+C:/Users/Collin/CLionProjects/Scheduler/Class.h
+Schedule.h
+C:/Users/Collin/CLionProjects/Scheduler/Schedule.h
+
